@@ -853,13 +853,13 @@ int generaNumero(int min, int max){
 
 void soundsEffectManager(int mode){
 	switch(mode){
-        case MORTO: system("aplay -q sounds/morto.wav");
+        case MORTO: system("aplay -q sounds/morto.wav 2> suono.txt");
             break;
 
-        case ROCKET: system("aplay -q sounds/missile.wav");
+        case ROCKET: system("aplay -q sounds/missile.wav 2> suono.txt");
             break;
 
-        case HIT: system("aplay -q sounds/hit.wav");
+        case HIT: system("aplay -q sounds/hit.wav 2> suono.txt");
             break;
     }
 

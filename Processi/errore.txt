@@ -1,0 +1,1 @@
+aplay: pcm_write:2086: errore di scrittura: Chiamata di sistema interrotta
